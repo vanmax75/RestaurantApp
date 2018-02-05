@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Restaurant App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!--  <link rel="stylesheet" href="css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	 <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="z.html">Restaurant App</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/favorites">Favorites</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">	
+        <div class="col-md-12">
+		    <h3>Welcome to Restaurant App!</h3>
+		    <p>Search for your restaurant in your area</p>
+		</div>
+		<form id="searchForm" method="POST" action="/search">
+    		<div class="form-group col-md-8">
+        		<input type="input" placeholder="search by location" name="location" id="location" class="form-control">
+    		</div>
+    		<div class="col-md-4">
+       			 <input type="submit" value="submit" class="btn btn-default" />
+   			</div>
+		</form>
+	  </div>
+	</div>
+	
+	<div class="container">
+		<div id="restaurant" class="row"></div>
+	</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/z.js"></script>
+</body>
+</html>
