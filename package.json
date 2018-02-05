@@ -1,5 +1,5 @@
 {
-  "name": "rapp003",
+  "name": "Restaurant App",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,15 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "keywords": [],
   "author": "zaksang",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "dotenv": "^5.0.0",
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "mysql2": "^1.5.1",
-    "sequelize": "^4.32.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql2": "^1.3.6",
+    "sequelize": "^4.3.1",
     "yelp-fusion": "^2.0.3"
   }
 }
