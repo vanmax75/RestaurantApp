@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+.col-md-3 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#j1 {
+	display: none;
+}
+
+.logotxt {
+	margin-left: 145px;
+	font-family: 'Lobster';
+	font-size: 50px;
+}
+
+.logotxt1 {
+	margin-left: 145px;
+	font-family: 'Lora';
+	font-size: 25px;
+}
+
+.logos {
+  width: 5%;
+  float: left;
+  }
+
+
+#food-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://sunbasket.com/resources/img/home/recipes/gf-steak-salad.jpg")
+  background-size: cover;
+  position: relative;
+  }
+#food-image img {
+  width: 100%;
+  height: 70%;
+  }
+#food-image h1 {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 15%;
+  left: 13%;
+  text-align: center;
+  color: white;
+  padding: 2em;
+  font-size: 80px;
+  font-family: 'Lora';  
+  text-shadow: 1px 1px 1px black;
+  }
+
+ section.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5em;
+  }
+
+
+
+.heading {
+  text-aling: center;
+}
+
+.heading-text {
+  font-family: 'Montserrat';
+  color: #ccad52;
+  font-size: 50px;
+  letter-spacing: 9px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+.underline {
+  height: 3px;
+  background: #eaeaea;
+}
+
+.wrapper {
+  min-height: 240px;
+  padding: 3em;
+}
+
+.menu-img {
+  width: 34%;
+  float: left;
+  margin-right: 10px;
+  display: block;
+  }
+.menu-txt {
+  width: 63%;
+  float: left;
+  }
+.menu-txt p {
+  font-size: 25px;
+  word-spacing: .30em;
+}
+
+.bold-txt {
+  color: black;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.mild-txt {
+  color: #787878;
+  font-family: Montserrat;
+}
+
+.list {
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 20px;
+  }
+
+.read-btn {
+  background-color: black;
+  color: white;
+  padding: 17px 25px;
+  border-radius: 6px;
+  border: none;
+  position: relative;
+  top: 1em;
+  font-family: montserrat;
+}
+
+.read-btn:hover {
+  background-color:#ccad52;
+  color: white;
+}
+
+.clear {
+  clear: both; 
+}
+
+
+.zipPhoto {
+  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Food-Wallpaper-HD-PIC-WPD006576.jpg");
+	height: 300px;
+}
+
+.citySearch {
+  color: white;
+  padding-left: 25%;
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+
+.citySearch h3 {
+  text-shadow: 2px 1px 2px black;
+  font-size: 35px;
+  font-family: Lora;
+}
+.citySearch h4 {
+  text-shadow: 2px 1px 2px black;
+  font-size: 40px;
+  font-family: Lora;
+}
+
+.citySearch p {
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  font-family: Lora;
+}
+
+.imagewell {
+    height: 240px;
+    background-size: cover;
+    border-radius: 4px;
+    margin :25px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+
+}
+
+.imagewell  {
+    padding-top: 70px;
+    text-shadow: 2px 1px #353535a3;
+    font-size: 26px;
+    color: #fff;
+     margin-bottom: 20px;
+    text-align: center;
+}
+
+.namewell {
+	font-style: bold;
+	text-align: center;
+	font-size: 26px;
+	text-shadow: 2px 1px #353535a3;
+}
+/*.urlwell{
+	display: inline-block;
+	vertical-align: middle;
+}*/
