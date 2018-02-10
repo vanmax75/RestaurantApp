@@ -4,7 +4,7 @@
 
 // Dependencies
 // =============================================================
-var Favorite = require("../models/favorite.js");
+
 const yelp = require('yelp-fusion');
 
 // Routes
@@ -15,20 +15,6 @@ module.exports =  {
     
  client: yelp.client(apiKey)
 
-  //   app.post("/location/new", function(req, res) {
-
-  //   // Take the request...
-  //   var favorite = req.body;
-
-    
-  //   // Then add the restaurant to the database using sequelize
-  //   Favorite.create({
-      
-  //     name: character.name,
-  //     image_url: favorite.image_url,
-  //     page_url: favorite.page_url
-  //   });
-
-  // });
+  
  
 };

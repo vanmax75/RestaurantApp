@@ -7,6 +7,7 @@
 var path = require("path");
 var client = require("./api-routes");
 var Favorite = require("../models/favorite.js");
+var db = require('../models/index.js');
 
 
  console.log(client)
@@ -35,7 +36,7 @@ module.exports = function(app) {
   	res.sendFile(path.join(__dirname, "../public/all.html"));
   });
   app.get("/api/favorites", function(req, res) {
-  	Favorite.findAll().then(function(favorites){
+  	db.Favorite.findAll().then(function(favorites){
   		res.json(favorites)
   	})
   });
@@ -48,7 +49,7 @@ module.exports = function(app) {
 
     
     // Then add the restaurant to the database using sequelize
-    Favorite.create({
+    db.Favorite.create({
       
       name: favorite.name,
       image_url: favorite.image_url,

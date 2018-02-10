@@ -9,6 +9,11 @@
 // =============================================================
 var express = require("express");
 var bodyParser = require("body-parser");
+var methodOverride = require("method-override");
+
+
+// bring in the models
+var db = require("./app/models");
 
 // Sets up the Express App
 // =============================================================
@@ -20,6 +25,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+
+app.use(methodOverride("_method"));
 
 // Static directory to be served
 app.use(express.static("app/public"));
@@ -33,6 +40,11 @@ require("./app/routes/html-routes.js")(app);
 
 // Starts the server to begin listening
 // =============================================================
+db.sequelize.sync().then(function(){
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
+});	
 });
+
+// console.log(module.exports);
+
