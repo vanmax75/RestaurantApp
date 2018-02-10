@@ -61,7 +61,7 @@ $(document).ready(() => {
 
 	});
 	function getRestaurant (searchText){
-		return $.get(window.location + "/location?s=" + searchText )
+		return $.get(window.location + "location?s=" + searchText )
 		
 	
 	};
