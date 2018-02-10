@@ -42,7 +42,7 @@ module.exports = function(app) {
   });
    
  
-    app.post("https://warm-springs-41939.herokuapp.com:443/location/new", function(req, res) {
+    app.post("/location/new", function(req, res) {
 
     // Take the request...
     var favorite = req.body;

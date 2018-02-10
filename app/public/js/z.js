@@ -61,7 +61,7 @@ $(document).ready(() => {
 
 	});
 	function getRestaurant (searchText){
-		return $.get("http://localhost:8080/location?s=" + searchText )
+		return $.get("https://localhost:8080/location?s=" + searchText )
 		
 	
 	};
