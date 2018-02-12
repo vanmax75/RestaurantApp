@@ -10,14 +10,13 @@ Restaurant app is an application that let's a user come to webpage, search for r
 ![restaurant-app-ss -menu](https://user-images.githubusercontent.com/26443871/36107894-4da97966-0fd0-11e8-9657-3cf594329aa9.png)
 
 Installation
-
 ======
 
 To install run npm install 
 
 Technology Used
-
 ======
+
 
 yelp-fusion API
 sequelize
