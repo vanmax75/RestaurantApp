@@ -22,6 +22,8 @@ yelp-fusion API
 sequelize
 mysql2
 
+Screenshots
+======
 
 
 ![restaurant-app-ss -menu](https://user-images.githubusercontent.com/26443871/36107894-4da97966-0fd0-11e8-9657-3cf594329aa9.png)
